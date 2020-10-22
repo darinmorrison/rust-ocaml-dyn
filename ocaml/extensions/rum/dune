@@ -1,0 +1,3 @@
+(library
+ (name rum)
+ (libraries api))

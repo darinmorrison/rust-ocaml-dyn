@@ -1,0 +1,3 @@
+(library
+ (name musket)
+ (libraries api))

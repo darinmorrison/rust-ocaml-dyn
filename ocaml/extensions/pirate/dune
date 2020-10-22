@@ -1,0 +1,3 @@
+(library
+ (name pirate)
+ (libraries api))

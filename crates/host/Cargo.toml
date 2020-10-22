@@ -1,0 +1,16 @@
+[package]
+publish = false
+name = "host"
+version = "0.1.0"
+authors = ["Darin Morrison <darinmorrison@users.noreply.github.com>"]
+edition = "2018"
+
+[build-dependencies]
+anyhow = "1.0"
+glob = "0.3"
+
+[dependencies]
+anyhow = "1.0"
+glob = "0.3"
+ocaml-interop = "0.4"
+thiserror = "1.0"

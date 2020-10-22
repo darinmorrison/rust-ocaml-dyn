@@ -1,0 +1,15 @@
+opam-version: "2.0"
+name: "rust-ocaml-dyn"
+version: "0.0"
+synopsis: "A demonstration of using Dynlink with the ocaml-interop crate"
+maintainer: "Darin Morrison <darinmorrison@users.noreply.github.com>"
+authors: "Darin Morrison <darinmorrison@users.noreply.github.com>"
+license: "Apache-2.0 WITH LLVM-exception"
+homepage: "http://github.com/darinmorrison/rust-ocaml-dyn"
+bug-reports: "https://github.com/darinmorrison/rust-ocaml-dyn/issues"
+dev-repo: "git+https://github.com/darinmorrison/rust-ocaml-dyn"
+depends: [
+  "dune" {>= "2.7"}
+  "ppx_deriving" {>= "4.5"}
+]
+build: [["dune" "build" "-p" name "-j" jobs]]

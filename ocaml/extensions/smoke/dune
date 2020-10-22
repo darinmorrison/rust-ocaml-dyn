@@ -1,0 +1,3 @@
+(library
+ (name smoke)
+ (libraries api))
